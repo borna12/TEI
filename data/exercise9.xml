@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Mabel FitzGerald to the Governor, Mountjoy Prison, 2 June 1916.</title>      
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LETTERS 1916-1923.</publisher>    
+         </publicationStmt>    
+         <sourceDesc>
+            <bibl>
+               <ref>http://letters1916.maynoothuniversity.ie/item/1476</ref>
+            </bibl>           
+         </sourceDesc>     
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Mabel FitzGerald</persName>
+               <address>
+                  <street>2 Loretto Villas</street>
+                  <settlement>Bray</settlement>
+                  <region>County Wicklow</region>
+                  <country>Ireland</country>
+               </address>
+               <date when="1916-06-02">2 June 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>A.T. Munro,<roleName>Governor of Mountjoy Prison</roleName></persName>
+               <address>
+                  <placeName>Montjoy Prison</placeName>
+                  <street>North Circular Road</street>
+                  <district>Dublin 7</district>
+                  <settlement>Dublin</settlement>
+               </address>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <opener><address><addrLine>2 Loretto Villas, Bray</addrLine></address>
+            <dateline>2nd June,1916</dateline>
+            <address><addrLine>The Governor, Mountjoy Prison, Dublin</addrLine></address>
+            <salute>Sir,</salute></opener>
+         
+         <p>I find that my husband Mr <persName ref="https://www.wikidata.org/entity/Q1200811"><forename>Desmond</forename> <surname>Fitzgerald</surname></persName>, left <rs type="place">Mount
+            joy Prison</rs>, on <date type="day">Friday</date> last so that he could not have received my 1
+            letter before his departure. I had been told at the Prison that he
+            would be able to write me and to receive one letter within the
+            first week. I waited to write him till I should have had his letter
+            which came on <date type="day">Friday</date> morning: I posted my reply on <date type="day">Friday</date> after
+            <time type="noon">noon</time>.</p>
+         
+         <p>I have just heard from him again from <rs type="place" ref="https://en.wikipedia.org/wiki/Dartmoor">Dartmoor</rs> : it
+            appears they are permitted to write once and receive a letter
+            after arrival there.</p>
+         
+         <p>I think it very likely that my letter to my husband
+            was forwarded on from <rs type="place">Mountjoy</rs> in which case he fears that it
+            may count as the letter he has the right to receive in <rs type="place">Dartmoor</rs>.
+            I shall be very much obliged if you will write the <roleName>Governor</roleName> of <rs type="place" ref="https://en.wikipedia.org/wiki/Dartmoor">Dartmoor</rs>
+            explaining matters so that he may be given the letter which
+            I am now writing him to <rs type="place">Dartmoor</rs>. As the he will not have another
+            letter for four months I am anxious that he should not lose this
+            one through a mistake.</p>
+         <closer><salute>I am, Yours truly</salute></closer>
+         
+      </body>     
+   </text>
+</TEI>
